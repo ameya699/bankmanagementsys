@@ -42,7 +42,7 @@ app.get('/customer', (req, res) => {
 
 app.post("/customer",(req,res)=>{
     
-    Customer.findOne({email:"piyushshah26@gmail.com"},function(err,customer){
+    Customer.findOne({email:"robbie26@gmail.com"},function(err,customer){
         if(err){
             res.json("Invalid!!");
         }
